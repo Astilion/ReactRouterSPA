@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom'
 import MainNavigation from '../components/MainNavigation';
-import styles from './Root.module.scss'
+
 const RootLayout = () => {
     return (
         <>
         <MainNavigation/>
-        <main className={styles.content}>
+        <main>
 
         <Outlet/>
         </main>
